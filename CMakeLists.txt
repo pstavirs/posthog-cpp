@@ -36,7 +36,7 @@ target_include_directories(posthog
 
 # Pass library version to code
 target_compile_definitions(posthog PRIVATE
-    POSTHOG_VERSION="${PROJECT_VERSION}"
+    POSTHOG_VERSION="${PROJECT_VERSION}+pstavirs.1"
 )
 
 # Platform-specific settings
